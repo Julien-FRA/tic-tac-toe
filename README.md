@@ -1,1 +1,1 @@
-# tic-tac-toe
+ La branche principale du projet est la branche *main* qui est protégée et *nécessite des approbations* avant de pouvoir y effectuer des fusions (merges). Nous utilisons une stratégie de création de branches soigneusement planifiée pour maintenir un flux de travail organisé et éviter les conflits de fusion. Cette stratégie est également conçue pour produire une intégration continue fiable
