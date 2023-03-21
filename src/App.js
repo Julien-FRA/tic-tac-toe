@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          TicTacToe app
+          Learn react
         </a>
       </header>
     </div>
