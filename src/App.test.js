@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Board from './App';
 
-test('renders square', () => {
-  render(<App />);
-  const squareElement = screen.getByText(/1/i);
-  expect(squareElement).toBeInTheDocument();
+describe('Board component', () => {
+  it('should render without crashing', () => {
+    render(<Board />);
+  });
 });

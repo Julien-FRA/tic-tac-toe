@@ -7,6 +7,9 @@ Vous retrouverez une application crée en React avec une mise en place de de CD 
 
 - https://tictactoe-app.herokuapp.com/
 - http://51.158.125.216:8080/
+- accès Jenkins view only 
+    - utilisateur : prof
+    - mdp : prof
 
 ## Installation du projet
 
@@ -52,3 +55,17 @@ La démarche à suivre pour rédiger ses commits :
 - test: Ajout ou modification de tests;
 - revert: Annulation d’un précédent commit;
 - chore: Toute autre modification (mise à jour de version par exemple).
+
+
+### Ajout d'un utilisateur sur Jenkins
+
+Lors de l'ajout d'un nouveau développeur sur Jenkins nous allons lui donner les droits suivant :
+
+- Vue des jobs,  cela lui permettra de consulter les builds et de surveiller leur état.
+- Exécution des jobs pour les projets qui lui sont confiés, cela lui permettra de lancer des builds et de voir les résultats
+- Lecture des logs, ce qui lui permettra de comprendre les erreurs et les problèmes qui se produisent lors des builds
+
+Et bien évidamment aucun droit d'administration (sauf exception).
+
+
+
