@@ -1,10 +1,8 @@
-import { render } from '@testing-library/react';
-import Board from './App';
+import { render, screen } from '@testing-library/react';
+import App from './App';
 
-describe('Board component', () => {
-  it('should render three "board-row" divs', () => {
-    const { getAllByClassName } = render(<Board />);
-    const boardRows = getAllByClassName('board-row');
-    expect(boardRows).toHaveLength(3);
-  });
+test('renders square', () => {
+  render(<App />);
+  const squareElement = screen.getByText(/1/i);
+  expect(squareElement).toBeInTheDocument();
 });
