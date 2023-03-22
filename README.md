@@ -1,3 +1,7 @@
+### Alexandre PARENT
+### Juan RESTREPO TORRES
+### Julien FRANCOIS
+
 # TIC TAC TOE
 
 Cette application de tic tac toe à été mise en place dans un contexte de cours sur le CICD.
