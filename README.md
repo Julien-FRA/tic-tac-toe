@@ -2,6 +2,13 @@
 ### Juan RESTREPO TORRES
 ### Julien FRANCOIS
 
+# Mise en place de Jenkins
+
+Création d'un Jenkins sur une machine virtuelle.
+Création de rôles utilisateurs à l'aide clés ssh.
+Nous avons ensuite créer un job qui est lié à notre repo github.
+En fonction des résultats des tests, on génére un build lors d'un push/PR sur la branche main.
+
 # TIC TAC TOE
 
 Cette application de tic tac toe à été mise en place dans un contexte de cours sur le CICD.
@@ -72,11 +79,3 @@ Lors de l'ajout d'un nouveau développeur sur Jenkins nous allons lui donner les
 - Lecture des logs, ce qui lui permettra de comprendre les erreurs et les problèmes qui se produisent lors des builds
 
 Et bien évidamment aucun droit d'administration (sauf exception).
-
-# Mise en place de Jenkins
-
-Création d'un Jenkins sur une machine virtuelle.
-Création de rôles utilisateurs à l'aide clés ssh.
-Nous avons ensuite créer un job qui est lié à notre repo github.
-En fonction des résultats des tests, on génére un build lors d'un push/PR sur la branche main.
-
