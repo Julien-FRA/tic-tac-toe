@@ -8,6 +8,7 @@
 - Création de rôles utilisateurs à l'aide clés ssh.
 - Nous avons ensuite créer un job qui est lié à notre repo github.
 - En fonction des résultats des tests, on génére un build lors d'un push/PR sur la branche main.
+- CF le lien vers notre Jenkins en ligne à l'aide des codes.
 
 # TIC TAC TOE
 
