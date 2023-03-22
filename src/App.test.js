@@ -1,8 +1,10 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render } from '@testing-library/react';
+import Board from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('Board component', () => {
+  it('should render three "board-row" divs', () => {
+    const { getAllByTestId } = render(<Board />);
+    const boardRows = getAllByTestId('board-row');
+    expect(boardRows).toHaveLength(3);
+  });
 });
