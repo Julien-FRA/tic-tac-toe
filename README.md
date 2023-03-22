@@ -30,6 +30,8 @@ Le fonctionnement est similaire pour la branche develop.
 
 Afin de créer une nouvelle feature, fix un bug, ajouter de la docs, il est nécéssaire de partir de la branch develop qui doit être à jour.
 
+Le manager doit valider la pull request et effectuer de nouveau une pull request de develop à main afin de créer un build dans jenkins.
+
 Nous utilisons une stratégie de création de branches soigneusement planifiée pour maintenir un flux de travail organisé et éviter les conflits de fusion. Cette stratégie est également conçue pour produire une intégration continue fiable.
 
 ### Fonctionnement des branch
