@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render, getAllByClassName } from '@testing-library/react';
 import Board from './App';
 
 describe('Board component', () => {
